@@ -1,3 +1,6 @@
+
+@import url('https://fonts.google.com/specimen/Kanit?script=Thai');
+
 .header{
     background-color: black;
     margin-top: -10px;
@@ -15,4 +18,43 @@
 
 .header.hide{
     top:-100%;
+}
+
+.frame{
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top: 110px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.profile{
+    width:45%;
+    margin: 2%;
+}
+.description{
+    font-family: kanit;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: -5%;
+}
+.marvelPoster{
+    width:14.66%;
+    margin: 2%;
+} 
+.imgInner{
+    width: 100%;
+}
+.logo {
+    width: 32%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: -4.5%;
+    margin-bottom: -6.5%;
 }
